@@ -1,7 +1,8 @@
 ## 👋 Olá, eu sou o Gadiego Nogueira
 
 - 👀 Tenho 25 anos e sou desenvolvedor FrontEnd
-- 🌱 Atualmente estou aprendendo ReactJS
+- 🎓 Formado em Sistemas de Informações 
+- 📖 Estudando ReactJs
 - 💞️ Tehno experiencia em VueJs, Angular e React Native.
 - 📫 Moro em Conquista, MG!
 
