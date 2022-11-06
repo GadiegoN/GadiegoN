@@ -1,13 +1,16 @@
-## 👋 Olá, eu sou o Gadiego Nogueira
+### 👋 Olá, eu sou o Gadiego Nogueira
+
+___________________________________
 
 - 👀 Tenho 25 anos e sou desenvolvedor FrontEnd
 - 🎓 Formado em Sistemas de Informações 
-- 📖 Estudando ReactJs
-- 💞️ Tehno experiencia em VueJs, Angular e React Native.
+- 📖 Estudando ReactJs - (Desgin System, Storybook, Typescript, tailwindcss)
+- 💞️ Tehno experiencia em `VueJs`, `Angular` e `React Native`.
 - 📫 Moro em Conquista, MG!
 
-<!---
-GadiegoN/GadiegoN is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
-<img src="https://img.shields.io/static/v1?label=Blog&message=Rocketseat&color=7159c1&style=for-the-badge&logo=ghost"/>
---->
+___________________________________
+
+> Contato
+
+* [![ Linkedin Badge ](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gadiego-nogueira-128248120/)](https://www.linkedin.com/in/gadiego-nogueira-128248120/)
+* ![ Selo do Gmail ](https://img.shields.io/badge/-ngadiego@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ngadiego@gmail.com)
