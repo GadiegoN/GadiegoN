@@ -4,7 +4,7 @@ ___________________________________
 
 - 👀 Tenho 25 anos e sou desenvolvedor FrontEnd
 - 🎓 Formado em Sistemas de Informações 
-- 📖 Estudando ReactJs - (Desgin System, Storybook, Typescript, tailwindcss)
+- 📖 Estudando ReactJs - (Desgin System, Storybook, Typescript)
 - 💞️ Tehno experiencia em `VueJs`, `Angular` e `React Native`.
 - 📫 Moro em Conquista, MG!
 
