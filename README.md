@@ -2,10 +2,10 @@
 
 ___________________________________
 
-- 👀 Tenho 25 anos e sou desenvolvedor FrontEnd
+- 👀 Tenho 26 anos e sou desenvolvedor Mobile
 - 🎓 Formado em Sistemas de Informações 
-- 📖 Estudando React Native
-- 💞️ Tehno experiencia em `VueJs`, `Angular` e `React Native`.
+- 📖 Tabalho com React Native
+- 💞️ Tehno experiencia em `VueJs` e `Angular`.
 - 📫 Moro em Conquista, MG!
 
 ___________________________________
