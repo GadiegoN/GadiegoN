@@ -5,8 +5,8 @@ ___________________________________
 - 👀 Tenho 26 anos e sou desenvolvedor Frontend
 - 🎓 Formado em Sistemas de Informações
 - 🎓 Cursando MBA em Engenharia de software
-- 📖 Tabalho com React Native e ReactJs
 - 💞️ Tehno experiencia com `Desenvolvimento Web` e `Desenvolvimento Mobile`.
+- 🛂 Tenho habilidades com ReactJS, React Native, Angular, NodeJs e Typescript
 - 📫 Moro em Conquista, MG!
 
 ___________________________________
