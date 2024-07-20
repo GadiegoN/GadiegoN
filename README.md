@@ -11,6 +11,8 @@ ___________________________________
 
 ___________________________________
 
+<a href="https://app.rocketseat.com.br/me/gadiegonogueira"><img src="https://app.rocketseat.com.br/api/rocketid/share?slug=gadiegonogueira&type=card" width="280" alt="Gadiego Nogueira's Rocket ID"/></a>
+
 > Contato
 
 * [![ Linkedin Badge ](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gadiego-nogueira-128248120/)](https://www.linkedin.com/in/gadiego-nogueira-128248120/)
