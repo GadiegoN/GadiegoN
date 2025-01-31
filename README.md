@@ -7,7 +7,8 @@ ___________________________________
 - 💞️ Tehno experiencia com `Desenvolvimento Web` e `Desenvolvimento Mobile`.
 - 🛂 Tenho habilidades com ReactJS, React Native, Angular, NodeJs e Typescript
 - 📫 Moro em Conquista, MG!
-
+- 🌍 [Portfólio](https://gadiego.com.br/) | [LinkedIn](https://www.linkedin.com/in/gadiegon/)
+  
 ___________________________________
 
 <a href="https://app.rocketseat.com.br/me/gadiegonogueira"><img src="https://app.rocketseat.com.br/api/rocketid/share?slug=gadiegonogueira&type=card" width="280" alt="Gadiego Nogueira's Rocket ID"/></a>
