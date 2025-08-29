@@ -2,7 +2,7 @@
 
 ___________________________________
 
-- 👀 Tenho 27 anos e sou desenvolvedor Frontend
+- 👀 Tenho 28 anos e sou desenvolvedor Frontend
 - 🎓 Formado em Sistemas de Informações
 - 💞️ Tehno experiencia com `Desenvolvimento Web` e `Desenvolvimento Mobile`.
 - 🛂 Tenho habilidades com ReactJS, React Native, Angular, NodeJs e Typescript
