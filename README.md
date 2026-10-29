@@ -19,6 +19,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/readme/cover.svg" width="100%" alt="00 · Reportagem de capa — Construindo meu próprio mundo. Ilustração de um quarto de desenvolvedor com monitor exibindo código, janela com chuva e teclado RGB." />
+</p>
+
+<p align="center">
   <img src="./assets/readme/about.svg" width="100%" alt="01 · Manifesto — Gosto de construir interfaces onde código, design e experiência do usuário trabalham juntos. Base: Conquista, MG. Formação: Sistemas de Informação. Front-end: React, Next.js, TypeScript. Mobile: React Native." />
 </p>
 
