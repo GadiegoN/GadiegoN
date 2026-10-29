@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="64" viewBox="0 0 280 64">
+  <foreignObject width="280" height="64">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="b">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        .b {
+          width: 280px; height: 64px; border-radius: 12px; overflow: hidden;
+          background: #14121C; color: #ECEEF3; border: 2px solid #14121C;
+          display: flex; align-items: center; padding: 0 18px; gap: 14px;
+          font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+        .n { font: italic 400 26px Georgia, 'Times New Roman', serif; color: #7B5CF5; }
+        small { display: block; font: 700 10px Consolas, Menlo, monospace; letter-spacing: .22em; text-transform: uppercase; opacity: .7; }
+        b { font-size: 15px; font-weight: 600; }
+        .a { margin-left: auto; font-size: 20px; color: #7B5CF5; animation: nudge 1.8s ease-in-out infinite; }
+        @keyframes nudge { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(3px, -3px); } }
+        @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      </style>
+      <span class="n">a.</span>
+      <div><small>Portfólio</small><b>gadiegon.com</b></div>
+      <span class="a">↗</span>
+    </div>
+  </foreignObject>
+</svg>

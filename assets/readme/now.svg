@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <foreignObject width="900" height="380">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="page">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+          --paper: #ECEEF3; --ink: #14121C; --violet: #7B5CF5; --lilac: #B7A6FF; --muted: #9A97A8;
+          --serif: Georgia, 'Times New Roman', serif;
+          --sans: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+          --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        }
+        .page {
+          width: 900px; height: 380px; border-radius: 18px; overflow: hidden;
+          background:
+            radial-gradient(circle at 1px 1px, rgba(236,238,243,.06) 1px, transparent 0) 0 0 / 6px 6px,
+            var(--ink);
+          color: var(--paper); font-family: var(--sans); padding: 34px 44px;
+          display: flex; flex-direction: column;
+        }
+        .head {
+          display: flex; align-items: flex-end; gap: 18px;
+          border-bottom: 2px solid var(--paper); padding-bottom: 14px;
+          animation: fade .8s ease both;
+        }
+        .num { font: 700 64px/0.8 var(--serif); color: var(--violet); letter-spacing: -0.04em; }
+        .kicker { font: 700 11px var(--mono); letter-spacing: .24em; text-transform: uppercase; color: var(--muted); }
+        .title { font: 700 32px/1.1 var(--serif); letter-spacing: -0.015em; }
+        .live {
+          margin-left: auto; display: flex; align-items: center; gap: 8px;
+          font: 700 11px var(--mono); letter-spacing: .2em; text-transform: uppercase;
+          border: 1px solid var(--paper); padding: 6px 10px; border-radius: 99px;
+        }
+        .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--violet); animation: pulse 1.6s ease-in-out infinite; }
+
+        .grid { display: grid; grid-template-columns: repeat(5, 1fr); flex: 1; margin-top: 22px; }
+        .item {
+          padding: 0 16px; border-left: 1px solid rgba(236,238,243,.22);
+          display: flex; flex-direction: column; animation: up .8s cubic-bezier(.2,.8,.2,1) both;
+        }
+        .item:first-child { border-left: 0; padding-left: 0; }
+        .item:nth-child(1) { animation-delay: .2s; } .item:nth-child(2) { animation-delay: .3s; }
+        .item:nth-child(3) { animation-delay: .4s; } .item:nth-child(4) { animation-delay: .5s; }
+        .item:nth-child(5) { animation-delay: .6s; }
+        .item .n { font: italic 400 40px/1 var(--serif); color: var(--lilac); }
+        .item h4 { font: 700 17px var(--sans); margin-top: 12px; }
+        .item p { font: italic 14px/1.4 var(--serif); color: var(--muted); margin-top: 6px; }
+        .bar { margin-top: auto; height: 3px; background: rgba(236,238,243,.12); overflow: hidden; }
+        .bar::after {
+          content: ''; display: block; height: 100%; width: 40%; background: var(--violet);
+          animation: load 2.4s ease-in-out infinite;
+        }
+        .item:nth-child(2) .bar::after { animation-delay: .3s; }
+        .item:nth-child(3) .bar::after { animation-delay: .6s; }
+        .item:nth-child(4) .bar::after { animation-delay: .9s; }
+        .item:nth-child(5) .bar::after { animation-delay: 1.2s; }
+
+        .foot {
+          margin-top: 18px; display: flex; justify-content: space-between;
+          font: 600 11px var(--mono); letter-spacing: .2em; text-transform: uppercase; color: var(--muted);
+        }
+        .foot b { color: var(--lilac); }
+
+        @keyframes fade  { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes up    { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+        @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(123,92,245,.7); } 50% { box-shadow: 0 0 0 7px rgba(123,92,245,0); } }
+        @keyframes load  { from { transform: translateX(-100%); } to { transform: translateX(260%); } }
+        @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      </style>
+
+      <div class="head">
+        <div class="num">03</div>
+        <div>
+          <div class="kicker">Nesta temporada</div>
+          <div class="title">Em produção agora</div>
+        </div>
+        <div class="live"><span class="dot"></span>Ao vivo</div>
+      </div>
+
+      <div class="grid">
+        <div class="item"><span class="n">i.</span><h4>React Native</h4><p>Apps que parecem nativos porque são.</p><div class="bar"></div></div>
+        <div class="item"><span class="n">ii.</span><h4>React</h4><p>Componentes, estado e boas decisões.</p><div class="bar"></div></div>
+        <div class="item"><span class="n">iii.</span><h4>TypeScript</h4><p>Tipos como documentação viva.</p><div class="bar"></div></div>
+        <div class="item"><span class="n">iv.</span><h4>UX / UI</h4><p>Detalhes que ninguém nota, mas todos sentem.</p><div class="bar"></div></div>
+        <div class="item"><span class="n">v.</span><h4>Performance</h4><p>Cada milissegundo conta.</p><div class="bar"></div></div>
+      </div>
+
+      <div class="foot">
+        <span>P. 04</span>
+        <span>Formação contínua na <b>Rocketseat</b> ↓</span>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
+

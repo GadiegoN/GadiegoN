@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250">
+  <foreignObject width="900" height="250">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="page">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+          --paper: #ECEEF3; --ink: #14121C; --violet: #7B5CF5; --muted: #5D5A6B;
+          --serif: Georgia, 'Times New Roman', serif;
+          --sans: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+          --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        }
+        .page {
+          width: 900px; height: 250px; border-radius: 18px; overflow: hidden;
+          background:
+            radial-gradient(circle at 1px 1px, rgba(20,18,28,.07) 1px, transparent 0) 0 0 / 6px 6px,
+            var(--paper);
+          color: var(--ink); font-family: var(--sans); padding: 34px 44px;
+          display: flex; gap: 36px; align-items: center;
+          border-top: 6px solid var(--violet);
+        }
+        .left { flex: 1; animation: fade .8s ease both; }
+        .kicker { font: 700 11px var(--mono); letter-spacing: .24em; text-transform: uppercase; color: var(--violet); }
+        h2 { font: 700 36px/1.05 var(--serif); letter-spacing: -0.02em; white-space: nowrap; margin: 8px 0 14px; }
+        h2 i { font-weight: 400; border-bottom: 3px solid var(--violet); }
+        .colophon { font-size: 12.5px; line-height: 1.55; color: var(--muted); max-width: 470px; }
+        .colophon b { color: var(--ink); }
+
+        .code { width: 250px; text-align: center; animation: fade .8s .3s ease both; }
+        .code small { display: block; font: 700 10px var(--mono); letter-spacing: .24em; margin-bottom: 6px; }
+        .bars {
+          position: relative; height: 92px; display: flex; justify-content: center; gap: 2px;
+          background: #fff; padding: 8px 12px; border: 1px solid var(--ink);
+        }
+        .bars i { display: block; background: var(--ink); width: 2px; }
+        .bars i.w2 { width: 4px; } .bars i.w3 { width: 6px; }
+        .bars i.g { width: 1px; background: transparent; }
+        .scan {
+          position: absolute; left: 0; right: 0; height: 2px; background: var(--violet);
+          box-shadow: 0 0 10px 2px rgba(123,92,245,.6); animation: scan 2.6s ease-in-out infinite;
+        }
+        .digits { font: 600 13px var(--mono); letter-spacing: .32em; margin-top: 6px; }
+
+        @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes scan { 0%, 100% { top: 6px; } 50% { top: calc(100% - 8px); } }
+        @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      </style>
+
+      <div class="left">
+        <div class="kicker">Fim da edição Nº 01</div>
+        <h2>Continua em <i>gadiegon.com</i> →</h2>
+        <p class="colophon">
+          <b>Expediente</b> — edição, design e código por Gadiego.
+          Composto em HTML &amp; CSS, impresso em SVG e distribuído via GitHub.
+          Nenhum template foi ferido na produção desta revista.
+        </p>
+      </div>
+
+      <div class="code">
+        <small>ISSN 2026-0001</small>
+        <div class="bars">
+          <i class="w2"></i><i></i><i class="g"></i><i class="w3"></i><i></i><i class="g"></i><i></i><i class="w2"></i>
+          <i></i><i class="g"></i><i class="w3"></i><i></i><i class="w2"></i><i class="g"></i><i></i><i></i>
+          <i class="w3"></i><i class="g"></i><i class="w2"></i><i></i><i class="g"></i><i></i><i class="w3"></i><i></i>
+          <i class="w2"></i><i class="g"></i><i></i><i class="w3"></i><i></i><i class="g"></i><i class="w2"></i><i></i>
+          <i></i><i class="g"></i><i class="w3"></i><i class="w2"></i><i></i><i class="g"></i><i></i><i class="w2"></i>
+          <span class="scan"></span>
+        </div>
+        <div class="digits">9 772026 000101</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

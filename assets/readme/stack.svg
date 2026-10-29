@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370">
+  <foreignObject width="900" height="370">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="page">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+          --paper: #ECEEF3; --ink: #14121C; --violet: #7B5CF5; --muted: #5D5A6B;
+          --serif: Georgia, 'Times New Roman', serif;
+          --sans: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+          --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        }
+        .page {
+          width: 900px; height: 370px; border-radius: 18px; overflow: hidden;
+          background:
+            radial-gradient(circle at 1px 1px, rgba(20,18,28,.07) 1px, transparent 0) 0 0 / 6px 6px,
+            var(--paper);
+          color: var(--ink); font-family: var(--sans); padding: 34px 44px;
+        }
+        .head {
+          display: flex; align-items: flex-end; gap: 18px;
+          border-bottom: 2px solid var(--ink); padding-bottom: 14px;
+          animation: fade .8s ease both;
+        }
+        .num { font: 700 64px/0.8 var(--serif); color: var(--violet); letter-spacing: -0.04em; }
+        .kicker { font: 700 11px var(--mono); letter-spacing: .24em; text-transform: uppercase; color: var(--muted); }
+        .title { font: 700 32px/1.1 var(--serif); letter-spacing: -0.015em; }
+        .pg { margin-left: auto; font: 600 11px var(--mono); letter-spacing: .18em; }
+
+        .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; padding-top: 22px; }
+        .col h3 {
+          font: italic 370 22px var(--serif); padding-bottom: 6px; margin-bottom: 6px;
+          border-bottom: 1px solid var(--ink); display: flex; justify-content: space-between; align-items: baseline;
+        }
+        .col h3 small { font: 700 10px var(--mono); font-style: normal; letter-spacing: .2em; color: var(--violet); }
+        .row {
+          display: flex; align-items: baseline; gap: 8px; padding: 7px 0;
+          animation: fade .6s ease both;
+        }
+        .row b { font: 600 15.5px var(--sans); white-space: nowrap; }
+        .row i {
+          flex: 1; height: 1px; align-self: center; margin-top: 6px;
+          border-bottom: 2px dotted rgba(20,18,28,.45);
+          transform-origin: left; animation: draw 1s cubic-bezier(.2,.8,.2,1) both;
+        }
+        .row span { font: 600 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--violet); white-space: nowrap; }
+
+        .c1 .row:nth-of-type(1), .c1 .row:nth-of-type(1) i { animation-delay: .20s; }
+        .c1 .row:nth-of-type(2), .c1 .row:nth-of-type(2) i { animation-delay: .30s; }
+        .c1 .row:nth-of-type(3), .c1 .row:nth-of-type(3) i { animation-delay: .40s; }
+        .c1 .row:nth-of-type(4), .c1 .row:nth-of-type(4) i { animation-delay: .50s; }
+        .c2 .row:nth-of-type(1), .c2 .row:nth-of-type(1) i { animation-delay: .35s; }
+        .c2 .row:nth-of-type(2), .c2 .row:nth-of-type(2) i { animation-delay: .45s; }
+        .c2 .row:nth-of-type(3), .c2 .row:nth-of-type(3) i { animation-delay: .55s; }
+        .c2 .row:nth-of-type(4), .c2 .row:nth-of-type(4) i { animation-delay: .65s; }
+        .c2 .row:nth-of-type(5), .c2 .row:nth-of-type(5) i { animation-delay: .75s; }
+        .c3 .row:nth-of-type(1), .c3 .row:nth-of-type(1) i { animation-delay: .50s; }
+        .c3 .row:nth-of-type(2), .c3 .row:nth-of-type(2) i { animation-delay: .60s; }
+        .c3 .row:nth-of-type(3), .c3 .row:nth-of-type(3) i { animation-delay: .70s; }
+
+        .note {
+          margin-top: 14px; padding: 12px 14px; background: var(--ink); color: var(--paper);
+          font: italic 14px/1.4 var(--serif); animation: fade .8s 1s ease both;
+        }
+        .note b { font: 700 10px var(--mono); font-style: normal; letter-spacing: .2em; color: var(--violet); display: block; margin-bottom: 2px; }
+
+        @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes draw { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+        @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      </style>
+
+      <div class="head">
+        <div class="num">02</div>
+        <div>
+          <div class="kicker">Índice</div>
+          <div class="title">Ferramentas de trabalho</div>
+        </div>
+        <div class="pg">P. 03</div>
+      </div>
+
+      <div class="cols">
+        <div class="col c1">
+          <h3>Web <small>I</small></h3>
+          <div class="row"><b>React</b><i></i><span>núcleo</span></div>
+          <div class="row"><b>Next.js</b><i></i><span>produção</span></div>
+          <div class="row"><b>TypeScript</b><i></i><span>sempre</span></div>
+          <div class="row"><b>JavaScript</b><i></i><span>base</span></div>
+        </div>
+        <div class="col c2">
+          <h3>Mobile &amp; UI <small>II</small></h3>
+          <div class="row"><b>React Native</b><i></i><span>mobile</span></div>
+          <div class="row"><b>HTML</b><i></i><span>estrutura</span></div>
+          <div class="row"><b>CSS</b><i></i><span>estilo</span></div>
+          <div class="row"><b>Tailwind</b><i></i><span>velocidade</span></div>
+          <div class="row"><b>Figma</b><i></i><span>rascunho</span></div>
+        </div>
+        <div class="col c3">
+          <h3>Bastidores <small>III</small></h3>
+          <div class="row"><b>Node.js</b><i></i><span>runtime</span></div>
+          <div class="row"><b>Git</b><i></i><span>histórico</span></div>
+          <div class="row"><b>VS Code</b><i></i><span>casa</span></div>
+          <div class="note"><b>Nota do editor</b>Ferramenta boa é a que some e deixa a experiência aparecer.</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
