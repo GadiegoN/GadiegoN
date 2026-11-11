@@ -35,9 +35,7 @@
 </p>
 
 <p align="center">
-  <a href="https://app.rocketseat.com.br/me/gadiegonogueira">
-    <img src="https://app.rocketseat.com.br/api/rocketid/share?slug=gadiegonogueira&type=card" width="420" alt="Rocket ID" />
-  </a>
+  [![Cidade 3D de @GadiegoN no GitHub World](https://world-web-six.vercel.app/api/badge/GadiegoN)](https://world-web-six.vercel.app/u/GadiegoN)
 </p>
 
 <p align="center">
