@@ -35,7 +35,9 @@
 </p>
 
 <p align="center">
-  [![Cidade 3D de @GadiegoN no GitHub World](https://world-web-six.vercel.app/api/badge/GadiegoN)](https://world-web-six.vercel.app/u/GadiegoN)
+  <a href="https://world-web-six.vercel.app/u/GadiegoN">
+    <img src="https://world-web-six.vercel.app/api/badge/GadiegoN" width="100%" alt="04 · Cidade 3D de @GadiegoN no GitHub World — Clique para explorar o mundo 3D." />
+  </a>
 </p>
 
 <p align="center">
